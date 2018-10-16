@@ -14,7 +14,7 @@ libraryDependencies ++= Seq(
 
 // PLay provides two styles of routers, one expects its actions to be injected, the
 // other, legacy style, accesses its actions statically.
-routesGenerator := InjectRoutesGenerator
+routesGenerator := InjectedRoutesGenerator
 
 enablePlugins(DebianPlugin)
 maintainer := "David Ryan <davidryan0001@gmail.com>"
